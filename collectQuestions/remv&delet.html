@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> jQuery 101 </title>
+</head>
+
+<body>
+    <div>
+        <p>
+            pargraph # 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, excepturi? Fugit velit
+            perferendis optio explicabo, voluptates, repellendus cum asperiores mollitia, corrupti labore provident
+            illum deserunt! Quidem eius saepe, commodi illum quam assumenda autem? Enim nisi a tenetur officia quaerat
+            expedita, modi quas facere rerum neque accusantium deserunt distinctio quos odio?
+        </p>
+        <p class="target">
+            pargraph # 2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quibusdam illum velit
+            eaque delectus nihil. Veniam, nulla facilis earum dolorem ea, maiores numquam mollitia voluptates rerum
+            laboriosam fugiat possimus obcaecati!
+        </p>
+        <p class="className">
+            pargraph # 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis mollitia repellendus harum
+            aperiam optio reiciendis laboriosam magni quae aliquam expedita est animi nostrum explicabo, similique
+            labore minus vero reprehenderit. Recusandae impedit ab doloremque delectus quia hic odit at quisquam ex
+            architecto quaerat, ipsa qui dolor neque omnis maxime officiis facilis.
+        </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("div p.className").remove()
+            $("div p.target").remove()
+        })
+    </script>
+</body>
+
+</html>

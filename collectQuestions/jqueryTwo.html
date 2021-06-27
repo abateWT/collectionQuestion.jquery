@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> jQuery 101 </title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <h2 class="customClassname" id="customid"> Hello Woubishet </h2>
+    <script>
+        $(document).ready(function () {
+            $("h2.customClassname").text("Change Me the Name of Woubishet");
+        })
+    </script>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> jQuery 101 </title>
+</head>
+
+<body>
+    <h3 class="customClassName"> Hello Everbody! </h3>
+    <p id="customid">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam iste dolores dolor ea quod quo iusto nemo
+        voluptatum atque natus provident, nobis labore rerum culpa libero hic consequuntur quaerat eligendi dolorem!
+        Officiis cum laborum ipsum aspernatur blanditiis provident, architecto obcaecati. Recusandae error velit quidem
+        inventore totam eius iusto eos laboriosam!
+    </p>
+    <p class="customClass">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, totam? Sunt deleniti exercitationem quod vero!
+        Repellendus possimus dolorem magni deleniti distinctio quo, alias atque sunt est accusantium consectetur
+        excepturi suscipit ipsum nemo ex rem fuga? Ad nobis labore, magnam quis sequi impedit! Repudiandae modi
+        voluptatibus, sunt placeat corporis voluptas! Blanditiis.
+    </p>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("h3.customClassName").text("Change Me the Name of Woubishet")
+            $("#customid").text("Change By the new Pargraph #1")
+            $("p.customClass").text("The Second Pargraph #2 Changed by this Statement!")
+        })
+    </script>
+</body>
+</html>
